@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Win11Resources/bg.jpeg); 
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.taskbar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.rightBar{
+    position: absolute;
+    right:0;
+    margin:6px 0;
+    height: 85%;
+}
+.startmenu{
+    position: absolute;
+    text-align: center;
+    bottom:-650px;
+    width: 100%;
+    transition: all 0.5s ease-in;
+}
+.startmenu img{
+
+    border-radius: 8px;
+}
